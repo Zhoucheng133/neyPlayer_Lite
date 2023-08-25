@@ -34,6 +34,10 @@ String token="Token";
 
 4. 完成之后你就可以在你的设备上运行调试了
 
+## 更新日志
+### v1.0.0 (2023/8/25)
+- 第一个版本
+
 ## 截图
 
 <img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" width="200px" />
