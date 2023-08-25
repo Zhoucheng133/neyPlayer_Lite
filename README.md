@@ -1,14 +1,18 @@
 # netPlayer Lite
 
+<img src="https://s2.loli.net/2023/08/25/6zDgU5biZlcp19w.png" width="100px">
+
+![Flutter](https://img.shields.io/badge/Flutter-3.13-blue?logo=Flutter)
+![get](https://img.shields.io/badge/get-4.6.5-red)
+![audioservice](https://img.shields.io/badge/audio_service-0.18.10-green)
+![audioplayers](https://img.shields.io/badge/audioplayers-1.1.0-yellow)
+![http](https://img.shields.io/badge/http-1.1.0-orange)
+
 **netPlayer的移动端（轻量版）**
 
 关于桌面版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player) / [Github](https://github.com/Zhoucheng133/net-player)
 
 **使用前务必先查看下方的`使用说明`**
-
-## 截图
-
-<img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" style="zoom:25%;" />
 
 ## 使用说明
 
@@ -29,3 +33,7 @@ String token="Token";
 ```
 
 4. 完成之后你就可以在你的设备上运行调试了
+
+## 截图
+
+<img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" style="zoom:25%;" />
