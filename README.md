@@ -36,4 +36,4 @@ String token="Token";
 
 ## 截图
 
-<img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" style="zoom:25%;" />
+<img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" width="200px" />
