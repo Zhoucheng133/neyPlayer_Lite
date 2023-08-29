@@ -63,6 +63,9 @@ class MyAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
       ],
       processingState: AudioProcessingState.loading,
     ));
+    player.onPlayerComplete.listen((event) {
+      skipToNext();
+    });
   }
   
   @override
@@ -86,9 +89,6 @@ class MyAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
     }else{
       setInfo();
     }
-    player.onPlayerComplete.listen((event) {
-      skipToNext();
-    });
   }
 
   @override
