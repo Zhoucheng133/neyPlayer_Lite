@@ -108,19 +108,8 @@ class MyAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
 
   @override
   Future<void> skipToNext()async {
-    await player.stop();
     await getRandomSong();
-    String id=c.playInfo["id"];
-    String url="${baseURL}/rest/stream?v=1.12.0&c=netPlayer&f=json&u=${username}&t=${token}&s=${salt}&id=${id}";
-    await player.play(UrlSource(url));
-    playbackState.add(playbackState.value.copyWith(
-      playing: true,
-      controls: [
-        MediaControl.pause,
-        MediaControl.skipToNext,
-      ],
-    ));
-    setInfo();
+    play();
   }
 }
 
