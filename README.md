@@ -1,6 +1,6 @@
 # netPlayer Lite
 
-<img src="https://s2.loli.net/2023/08/25/6zDgU5biZlcp19w.png" width="100px">
+<img src="./_assets/icon.png" width="100px">
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.13-blue?logo=Flutter)
 ![get](https://img.shields.io/badge/get-4.6.5-red)
@@ -40,4 +40,4 @@ String token="Token";
 
 ## 截图
 
-<img src="https://s2.loli.net/2023/08/25/pn3jKglAd4shzDy.jpg" alt="netPlayer_Lite_截图.jpg" width="200px" />
+<img src="./_assets/demo.PNG" alt="netPlayer_Lite_截图.jpg" width="200px" />
