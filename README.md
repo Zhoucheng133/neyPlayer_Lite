@@ -10,7 +10,8 @@
 
 **netPlayer的移动端（轻量版）**
 
-关于桌面版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player) / [Github](https://github.com/Zhoucheng133/net-player)
+关于桌面版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player) / [Github](https://github.com/Zhoucheng133/net-player)  
+关于移动版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player-mobile) / [Github](https://github.com/Zhoucheng133/netPlayer-Mobile)
 
 **使用前务必先查看下方的`使用说明`**
 
@@ -34,10 +35,11 @@ String token="Token";
 
 4. 完成之后你就可以在你的设备上运行调试了
 
-## 更新日志
-### v1.0.0 (2023/8/25)
-- 第一个版本
-
 ## 截图
 
 <img src="./_assets/demo.PNG" alt="netPlayer_Lite_截图.jpg" width="200px" />
+
+
+## 更新日志
+### v1.0.0 (2023/8/25)
+- 第一个版本
