@@ -8,6 +8,8 @@
 ![audioplayers](https://img.shields.io/badge/audioplayers-1.1.0-yellow)
 ![http](https://img.shields.io/badge/http-1.1.0-orange)
 
+![License](https://img.shields.io/badge/License-MIT-dark_green)
+
 **netPlayer的移动端（轻量版）**
 
 关于桌面版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player) / [Github](https://github.com/Zhoucheng133/net-player)  
