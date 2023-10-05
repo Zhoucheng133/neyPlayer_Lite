@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unnecessary_brace_in_string_interps, sized_box_for_whitespace, prefer_const_literals_to_create_immutables, unrelated_type_equality_checks, prefer_typing_uninitialized_variables, unused_element
 
 import 'package:audio_service/audio_service.dart';
-import 'package:audioplayers/audioplayers.dart';
+import 'package:just_audio/just_audio.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:netplayer_lite/Functions/_request.dart';
@@ -63,9 +63,15 @@ class MyAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
       ],
       processingState: AudioProcessingState.loading,
     ));
-    player.onPlayerComplete.listen((event) {
+    // player.onPlayerComplete.listen((event) {
+    //   skipToNext();
+    // });
+    player.playerStateStream.listen((playerState) {
+    if (playerState.processingState == ProcessingState.completed) {
+      // 音频播放完成，您可以在这里执行您的逻辑
       skipToNext();
-    });
+    }
+  });
   }
   
   @override
@@ -76,7 +82,8 @@ class MyAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
     }
     String id=c.playInfo["id"];
     String url="${baseURL}/rest/stream?v=1.12.0&c=netPlayer&f=json&u=${username}&t=${token}&s=${salt}&id=${id}";
-    await player.play(UrlSource(url));
+    await player.setUrl(url);
+    player.play();
     playbackState.add(playbackState.value.copyWith(
       playing: true,
       controls: [
