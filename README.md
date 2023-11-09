@@ -1,3 +1,5 @@
+<mark>**本项目迁移到Github，[点击这里查看](https://github.com/Zhoucheng133/neyPlayer_Lite)**</mark>
+
 # netPlayer Lite
 
 <img src="./_assets/icon.png" width="100px">
