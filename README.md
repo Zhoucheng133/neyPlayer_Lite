@@ -1,5 +1,3 @@
-<mark>**本项目迁移到Github，[点击这里查看](https://github.com/Zhoucheng133/neyPlayer_Lite)**</mark>
-
 # netPlayer Lite
 
 <img src="./_assets/icon.png" width="100px">
@@ -14,9 +12,9 @@
 
 **netPlayer的移动端（轻量版）**
 
-关于桌面版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player) / [Github](https://github.com/Zhoucheng133/net-player)  
-关于移动版的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player-mobile) / [Github](https://github.com/Zhoucheng133/netPlayer-Mobile)  
-关于PWA版本的netPlayer，你可以在这里查看：[Gitee](https://gitee.com/Ryan-zhou/net-player-pwa) / [Github](https://github.com/Zhoucheng133/netPlayer-PWA)
+关于桌面版的netPlayer，你可以在这里查看：[Github](https://github.com/Zhoucheng133/net-player)  
+关于移动版的netPlayer，你可以在这里查看：[Github](https://github.com/Zhoucheng133/netPlayer-Mobile)  
+关于PWA版本的netPlayer，你可以在这里查看：[Github](https://github.com/Zhoucheng133/netPlayer-PWA)
 
 
 |                          | netPlayer                       | netPlayer Mobile                                             | netPlayer Lite                                               | netPlayer PWA         |
